@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#3cb371"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:padding="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#ffd700"
+        android:text="@string/gaosach24h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextuserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="@string/username"
+        android:importantForAutofill="no"
+        android:padding="20dp"
+        android:inputType="text" />
+
+
+    <EditText
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:background="#ffffff"
+        android:id="@+id/editTextpassword"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/nhodangnhap" />
+
+    <Button
+        android:id="@+id/btndangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#ffd700"
+        android:padding="10dp"
+        android:text="@string/dangnhap"
+        android:textSize="20sp" />
+
+
+   <LinearLayout
+       android:weightSum="10"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       >
+
+       <Button
+
+           android:id="@+id/btnqmk"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/qu_n_m_t_kh_u">
+
+       </Button>
+
+       <Button
+           android:id="@+id/btnDktk"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/ng_k_t_i_kho_n">
+
+       </Button>
+
+
+   </LinearLayout>
+
+
+
+
+</LinearLayout>

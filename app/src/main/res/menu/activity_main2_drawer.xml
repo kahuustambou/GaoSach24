@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="Trang chủ"
+            android:icon="@drawable/home"
+             />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Đơn hàng"
+            android:icon="@drawable/list"
+            />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Dự báo"
+            android:icon="@drawable/hourglass"
+            />
+        <item
+            android:id="@+id/nav_tools"
+            android:title="Khuyến mãi"
+            android:icon="@drawable/gift"
+            />
+        <item
+            android:id="@+id/nav_send"
+
+            android:icon="@drawable/megaphone"
+            android:title="Thông báo"
+            />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/book"
+            android:title="Hướng dẫn sử dụng"
+           />
+        <item
+            android:icon="@drawable/account"
+
+            android:title="Tài khoản"
+            />
+
+    </group>
+
+
+
+</menu>

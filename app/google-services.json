@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "899139355862",
+    "firebase_url": "https://gaosach24h-3c99b.firebaseio.com",
+    "project_id": "gaosach24h-3c99b",
+    "storage_bucket": "gaosach24h-3c99b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899139355862:android:84489b9277e01c1642b577",
+        "android_client_info": {
+          "package_name": "com.example.gaosach24h"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899139355862-amirhhb39622q1ee30aoqg4vbqbp25ec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gaosach24h",
+            "certificate_hash": "fe2438187d532dc21837f56c6cdf67ae25f0847f"
+          }
+        },
+        {
+          "client_id": "899139355862-kilem2jbanrje5pss64ui422p4ocncb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyRkAfGQdtWjLD-Q_Gru8GnQ0QQ6hdbP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899139355862-kilem2jbanrje5pss64ui422p4ocncb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
